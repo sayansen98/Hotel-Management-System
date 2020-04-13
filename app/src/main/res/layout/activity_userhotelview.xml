@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/unnamed"
+    tools:context=".userhotelview">
+
+    <Button
+        android:id="@+id/bt1"
+        android:textSize="20dp"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:textColor="#8B428B"
+        android:text="Back" />
+    <Button
+        android:id="@+id/bt5"
+        android:layout_width="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="LOG OUT"
+        android:background="@android:color/transparent"
+        android:textColor="#8B428B"
+        android:layout_height="70dp" />
+
+    <TextView
+        android:id="@+id/lv1"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+</LinearLayout>
